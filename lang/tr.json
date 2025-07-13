@@ -1,0 +1,55 @@
+{
+  "navbar.home": "Ana Sayfa",
+  "navbar.how": "Nasıl Çalışır",
+  "navbar.pricing": "Fiyatlandırma",
+  "navbar.demo": "Demo",
+  "navbar.community": "Topluluk",
+  "navbar.blog": "Blog",
+  "navbar.help": "Yardım",
+  "navbar.support": "Destek",
+  "navbar.signup": "Kayıt Ol",
+
+  "hero.title": "Kitlenizden para kazanın",
+  "hero.subtitle": "Bağış alın, özel uyarılar oluşturun ve izleyicilerinizle gerçek zamanlı etkileşim kurun.",
+  "cta.start": "Kazanmaya Başla",
+  "cta.demo": "Demoyu Gör",
+
+  "section.steps.title": "3 Kolay Adımda Başlayın",
+  "section.step1": "Ücretsiz kayıt olun",
+  "section.step2": "Bağış sayfanızı oluşturun",
+  "section.step3": "Bağlantıyı paylaşın ve bağış alın",
+
+  "section.integrations.title": "Favori platformlarınızla çalışır",
+  "section.reviews.title": "Dünya çapında içerik üreticileri tarafından sevildi",
+  "section.pricing.title": "Basit ve Şeffaf Fiyatlandırma",
+
+  "pricing.free": "Ücretsiz",
+  "pricing.pro": "Pro",
+  "pricing.premium": "Premium",
+  "pricing.price.free": "$0/ay",
+  "pricing.price.pro": "$5/ay",
+  "pricing.price.premium": "$15/ay",
+
+  "pricing.alerts": "Uyarı Tasarımları",
+  "pricing.alerts.free": "Temel",
+  "pricing.alerts.pro": "Animasyonlu",
+  "pricing.alerts.premium": "Tam 3D + Ses",
+
+  "pricing.stats": "İstatistik Erişimi",
+  "pricing.stats.free": "7 gün",
+  "pricing.stats.pro": "30 gün",
+  "pricing.stats.premium": "Sınırsız",
+
+  "pricing.support": "Destek",
+  "pricing.support.free": "Sadece E-posta",
+  "pricing.support.pro": "Öncelikli",
+  "pricing.support.premium": "VIP (Canlı Sohbet)",
+
+  "pricing.obs": "OBS Aracı",
+  "pricing.obs.free": "Mevcut değil",
+  "pricing.obs.pro": "Mevcut",
+  "pricing.obs.premium": "Mevcut",
+
+  "footer.rights": "Tüm hakları saklıdır",
+  "footer.language": "Dil"
+}
