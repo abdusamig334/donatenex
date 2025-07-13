@@ -1,0 +1,55 @@
+{
+  "navbar.home": "Startseite",
+  "navbar.how": "Wie es funktioniert",
+  "navbar.pricing": "Preise",
+  "navbar.demo": "Demo",
+  "navbar.community": "Community",
+  "navbar.blog": "Blog",
+  "navbar.help": "Hilfe",
+  "navbar.support": "Support",
+  "navbar.signup": "Registrieren",
+
+  "hero.title": "Verdiene Geld mit deinem Publikum",
+  "hero.subtitle": "Erhalte Spenden, erstelle individuelle Alerts und interagiere mit deinen Fans in Echtzeit.",
+  "cta.start": "Jetzt Geld verdienen",
+  "cta.demo": "Demo ansehen",
+
+  "section.steps.title": "Starte in 3 einfachen Schritten",
+  "section.step1": "Kostenlos registrieren",
+  "section.step2": "Erstelle deine Spendenseite",
+  "section.step3": "Teile den Link und erhalte Spenden",
+
+  "section.integrations.title": "Funktioniert mit deinen Lieblingsplattformen",
+  "section.reviews.title": "Beliebt bei Kreativen weltweit",
+  "section.pricing.title": "Einfache und transparente Preisgestaltung",
+
+  "pricing.free": "Kostenlos",
+  "pricing.pro": "Pro",
+  "pricing.premium": "Premium",
+  "pricing.price.free": "$0/Monat",
+  "pricing.price.pro": "$5/Monat",
+  "pricing.price.premium": "$15/Monat",
+
+  "pricing.alerts": "Alert-Designs",
+  "pricing.alerts.free": "Einfach",
+  "pricing.alerts.pro": "Animiert",
+  "pricing.alerts.premium": "Vollständig 3D + Ton",
+
+  "pricing.stats": "Statistikzugang",
+  "pricing.stats.free": "7 Tage",
+  "pricing.stats.pro": "30 Tage",
+  "pricing.stats.premium": "Unbegrenzt",
+
+  "pricing.support": "Support",
+  "pricing.support.free": "Nur E-Mail",
+  "pricing.support.pro": "Priorisiert",
+  "pricing.support.premium": "VIP (Live-Chat)",
+
+  "pricing.obs": "OBS Widget",
+  "pricing.obs.free": "Nicht verfügbar",
+  "pricing.obs.pro": "Verfügbar",
+  "pricing.obs.premium": "Verfügbar",
+
+  "footer.rights": "Alle Rechte vorbehalten",
+  "footer.language": "Sprache"
+}
