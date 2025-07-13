@@ -1,0 +1,55 @@
+{
+  "navbar.home": "Home",
+  "navbar.how": "How it works",
+  "navbar.pricing": "Pricing",
+  "navbar.demo": "Demo",
+  "navbar.community": "Community",
+  "navbar.blog": "Blog",
+  "navbar.help": "Help",
+  "navbar.support": "Support",
+  "navbar.signup": "Sign Up",
+
+  "hero.title": "Make money from your audience",
+  "hero.subtitle": "Receive donations, create custom alerts, and engage with your fans in real time.",
+  "cta.start": "Start Earning",
+  "cta.demo": "See Demo",
+
+  "section.steps.title": "Start in 3 Simple Steps",
+  "section.step1": "Sign up for free",
+  "section.step2": "Create your donation page",
+  "section.step3": "Share the link and get donations",
+
+  "section.integrations.title": "Works with your favorite platforms",
+  "section.reviews.title": "Loved by Creators Worldwide",
+  "section.pricing.title": "Simple and Transparent Pricing",
+
+  "pricing.free": "Free",
+  "pricing.pro": "Pro",
+  "pricing.premium": "Premium",
+  "pricing.price.free": "$0/month",
+  "pricing.price.pro": "$5/month",
+  "pricing.price.premium": "$15/month",
+
+  "pricing.alerts": "Alert Designs",
+  "pricing.alerts.free": "Basic",
+  "pricing.alerts.pro": "Animated",
+  "pricing.alerts.premium": "Full 3D + Audio",
+
+  "pricing.stats": "Stats Access",
+  "pricing.stats.free": "7 days",
+  "pricing.stats.pro": "30 days",
+  "pricing.stats.premium": "Unlimited",
+
+  "pricing.support": "Support",
+  "pricing.support.free": "Email only",
+  "pricing.support.pro": "Priority",
+  "pricing.support.premium": "VIP (Live Chat)",
+
+  "pricing.obs": "OBS Widget",
+  "pricing.obs.free": "Unavailable",
+  "pricing.obs.pro": "Available",
+  "pricing.obs.premium": "Available",
+
+  "footer.rights": "All rights reserved",
+  "footer.language": "Language"
+}
