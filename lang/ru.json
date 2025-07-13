@@ -1,0 +1,55 @@
+{
+  "navbar.home": "Главная",
+  "navbar.how": "Как работает",
+  "navbar.pricing": "Цены",
+  "navbar.demo": "Демо",
+  "navbar.community": "Сообщество",
+  "navbar.blog": "Блог",
+  "navbar.help": "Помощь",
+  "navbar.support": "Поддержка",
+  "navbar.signup": "Регистрация",
+
+  "hero.title": "Зарабатывайте на своей аудитории",
+  "hero.subtitle": "Получайте донаты, создавайте кастомные оповещения и взаимодействуйте с вашими зрителями в реальном времени.",
+  "cta.start": "Начать зарабатывать",
+  "cta.demo": "Посмотреть демо",
+
+  "section.steps.title": "Начните в 3 простых шага",
+  "section.step1": "Зарегистрируйтесь бесплатно",
+  "section.step2": "Создайте свою страницу донатов",
+  "section.step3": "Поделитесь ссылкой и получайте донаты",
+
+  "section.integrations.title": "Работает с вашими любимыми платформами",
+  "section.reviews.title": "Любимая платформа креаторов по всему миру",
+  "section.pricing.title": "Простые и прозрачные тарифы",
+
+  "pricing.free": "Бесплатно",
+  "pricing.pro": "Pro",
+  "pricing.premium": "Премиум",
+  "pricing.price.free": "$0/мес",
+  "pricing.price.pro": "$5/мес",
+  "pricing.price.premium": "$15/мес",
+
+  "pricing.alerts": "Дизайн оповещений",
+  "pricing.alerts.free": "Базовый",
+  "pricing.alerts.pro": "Анимированный",
+  "pricing.alerts.premium": "Полный 3D + Звук",
+
+  "pricing.stats": "Доступ к статистике",
+  "pricing.stats.free": "7 дней",
+  "pricing.stats.pro": "30 дней",
+  "pricing.stats.premium": "Неограниченно",
+
+  "pricing.support": "Поддержка",
+  "pricing.support.free": "Только Email",
+  "pricing.support.pro": "Приоритетная",
+  "pricing.support.premium": "VIP (Live чат)",
+
+  "pricing.obs": "OBS Виджет",
+  "pricing.obs.free": "Недоступен",
+  "pricing.obs.pro": "Доступен",
+  "pricing.obs.premium": "Доступен",
+
+  "footer.rights": "Все права защищены",
+  "footer.language": "Язык"
+}
