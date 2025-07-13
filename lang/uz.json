@@ -1,0 +1,55 @@
+{
+  "navbar.home": "Bosh sahifa",
+  "navbar.how": "Qanday ishlaydi",
+  "navbar.pricing": "Narxlar",
+  "navbar.demo": "Demo",
+  "navbar.community": "Jamiyat",
+  "navbar.blog": "Blog",
+  "navbar.help": "Yordam",
+  "navbar.support": "Qo‘llab-quvvatlash",
+  "navbar.signup": "Ro‘yxatdan o‘tish",
+
+  "hero.title": "Auditoriyangizdan daromad oling",
+  "hero.subtitle": "Donatlar qabul qiling, maxsus alertlar yarating va tomoshabinlaringiz bilan real vaqtda aloqada bo‘ling.",
+  "cta.start": "Daromad olishni boshlang",
+  "cta.demo": "Demoni ko‘rish",
+
+  "section.steps.title": "3 oddiy qadamda boshlang",
+  "section.step1": "Ro‘yxatdan o‘ting",
+  "section.step2": "Donation sahifangizni yarating",
+  "section.step3": "Havolani ulashing va donatlarni qabul qiling",
+
+  "section.integrations.title": "Sevimli platformalaringiz bilan ishlaydi",
+  "section.reviews.title": "Butun dunyo ijodkorlari tomonidan yoqdi",
+  "section.pricing.title": "Oddiy va shaffof narxlar",
+
+  "pricing.free": "Bepul",
+  "pricing.pro": "Pro",
+  "pricing.premium": "Premium",
+  "pricing.price.free": "$0/oy",
+  "pricing.price.pro": "$5/oy",
+  "pricing.price.premium": "$15/oy",
+
+  "pricing.alerts": "Alert dizaynlari",
+  "pricing.alerts.free": "Oddiy",
+  "pricing.alerts.pro": "Animatsion",
+  "pricing.alerts.premium": "To‘liq 3D + Ovoz",
+
+  "pricing.stats": "Statistika kirish",
+  "pricing.stats.free": "7 kun",
+  "pricing.stats.pro": "30 kun",
+  "pricing.stats.premium": "Cheksiz",
+
+  "pricing.support": "Qo‘llab-quvvatlash",
+  "pricing.support.free": "Faqat email",
+  "pricing.support.pro": "Ustun navbat",
+  "pricing.support.premium": "VIP (Live Chat)",
+
+  "pricing.obs": "OBS Vidjeti",
+  "pricing.obs.free": "Mavjud emas",
+  "pricing.obs.pro": "Mavjud",
+  "pricing.obs.premium": "Mavjud",
+
+  "footer.rights": "Barcha huquqlar himoyalangan",
+  "footer.language": "Til"
+}
