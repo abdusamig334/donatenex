@@ -1,10 +1,10 @@
-/* animations.css – GSAP & Animate.css inspired custom animations for DonateNex */
+/* animations.css — DonateNex 3D & motion effects */
 
 /* Fade In */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeIn 1s ease forwards;
+  animation: fadeIn 0.8s ease-out forwards;
 }
 
 @keyframes fadeIn {
@@ -14,39 +14,38 @@
   }
 }
 
-/* Slide Up */
-.slide-up {
+/* Slide In */
+.slide-in-left {
   opacity: 0;
-  transform: translateY(50px);
-  animation: slideUp 0.8s ease forwards;
+  transform: translateX(-50px);
+  animation: slideInLeft 0.8s ease-out forwards;
 }
 
-@keyframes slideUp {
+@keyframes slideInLeft {
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
-/* Pulse Glow */
-.pulse-glow {
-  animation: pulseGlow 2s ease-in-out infinite;
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInRight 0.8s ease-out forwards;
 }
 
-@keyframes pulseGlow {
-  0%, 100% {
-    box-shadow: 0 0 10px #00FFE0, 0 0 20px #00FFE0;
-  }
-  50% {
-    box-shadow: 0 0 20px #00FFE0, 0 0 40px #00FFE0;
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
 /* Zoom In */
 .zoom-in {
   opacity: 0;
-  transform: scale(0.9);
-  animation: zoomIn 0.6s ease forwards;
+  transform: scale(0.95);
+  animation: zoomIn 0.7s ease-out forwards;
 }
 
 @keyframes zoomIn {
@@ -56,39 +55,45 @@
   }
 }
 
-/* Rotate Entry */
-.rotate-in {
-  opacity: 0;
-  transform: rotateX(-90deg);
-  animation: rotateIn 0.7s ease-out forwards;
+/* Pulse (repeated effect) */
+.pulse {
+  animation: pulseAnim 2s infinite;
 }
 
-@keyframes rotateIn {
-  to {
+@keyframes pulseAnim {
+  0%, 100% {
+    transform: scale(1);
     opacity: 1;
-    transform: rotateX(0);
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
   }
 }
 
-/* Delay Variants */
+/* Neon Glow */
+.neon-border {
+  box-shadow: 0 0 5px #00FFE0, 0 0 10px #00FFE0, 0 0 15px #00FFE0;
+}
+
+.neon-hover:hover {
+  box-shadow: 0 0 8px #00FFE0, 0 0 20px #00FFE0;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Delay helpers */
 .delay-1 {
-  animation-delay: 0.3s;
+  animation-delay: 0.2s;
 }
 .delay-2 {
-  animation-delay: 0.6s;
+  animation-delay: 0.4s;
 }
 .delay-3 {
-  animation-delay: 0.9s;
+  animation-delay: 0.6s;
 }
 .delay-4 {
-  animation-delay: 1.2s;
+  animation-delay: 0.8s;
 }
-
-/* On Scroll Trigger (GSAP will toggle this class) */
-.animated {
-  visibility: visible;
-}
-
-.not-visible {
-  visibility: hidden;
+.delay-5 {
+  animation-delay: 1s;
 }
