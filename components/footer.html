@@ -1,0 +1,70 @@
+<footer class="bg-[#0B0B0B] text-[#E5E5E5] py-10 mt-20 border-t border-[#1A1A1A]">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+
+    <!-- About -->
+    <div>
+      <div class="flex items-center gap-2 mb-3">
+        <img src="/assets/images/logos/logo.svg" alt="DonateNex Logo" class="h-6 w-auto">
+        <span class="text-lg font-bold text-white">DonateNex</span>
+      </div>
+      <p class="text-sm text-[#A1A1A1] max-w-xs">
+        <span data-i18n="footer.rights">All rights reserved</span>. © <span id="year"></span> DonateNex.
+      </p>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div>
+        <p class="font-semibold mb-2">Explore</p>
+        <ul class="space-y-1">
+          <li><a href="/" class="hover:text-[#00FFE0]" data-i18n="navbar.home">Home</a></li>
+          <li><a href="/how-it-works.html" class="hover:text-[#00FFE0]" data-i18n="navbar.how">How it works</a></li>
+          <li><a href="/pricing.html" class="hover:text-[#00FFE0]" data-i18n="navbar.pricing">Pricing</a></li>
+          <li><a href="/demo.html" class="hover:text-[#00FFE0]" data-i18n="navbar.demo">Demo</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold mb-2">Resources</p>
+        <ul class="space-y-1">
+          <li><a href="/community.html" class="hover:text-[#00FFE0]" data-i18n="navbar.community">Community</a></li>
+          <li><a href="/blog.html" class="hover:text-[#00FFE0]" data-i18n="navbar.blog">Blog</a></li>
+          <li><a href="/help.html" class="hover:text-[#00FFE0]" data-i18n="navbar.help">Help</a></li>
+          <li><a href="/support.html" class="hover:text-[#00FFE0]" data-i18n="navbar.support">Support</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Language + Socials -->
+    <div class="flex flex-col gap-4">
+      <div>
+        <label for="langSwitcherFooter" class="block text-sm font-medium mb-1" data-i18n="footer.language">Language</label>
+        <select id="langSwitcherFooter" class="bg-[#1A1A1A] text-white border border-[#00FFE0] rounded px-3 py-1 text-sm w-full">
+          <option value="en">🇬🇧 EN</option>
+          <option value="uz">🇺🇿 UZ</option>
+          <option value="ru">🇷🇺 RU</option>
+          <option value="tr">🇹🇷 TR</option>
+          <option value="de">🇩🇪 DE</option>
+          <option value="es">🇪🇸 ES</option>
+        </select>
+      </div>
+      <div class="flex gap-3 mt-4">
+        <a href="#" class="hover:text-[#00FFE0]" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-[#00FFE0]" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="hover:text-[#00FFE0]" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+        <a href="#" class="hover:text-[#00FFE0]" aria-label="Discord"><i class="fab fa-discord"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  const footerLang = document.getElementById("langSwitcherFooter");
+  if (footerLang) {
+    footerLang.value = localStorage.getItem("dnx-lang") || "en";
+    footerLang.addEventListener("change", (e) => {
+      document.getElementById("langSwitcher").value = e.target.value;
+      document.getElementById("langSwitcher").dispatchEvent(new Event("change"));
+    });
+  }
+</script>
